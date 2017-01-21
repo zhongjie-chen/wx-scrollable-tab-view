@@ -9,7 +9,11 @@
   <view class="scroll-view">
     <view bindtouchstart="handlerStart" catchtouchmove="handlerMove" bindtouchcancel="handlerCancel" bindtouchend="handlerEnd"  class="scroll-view-wrapper {{!stv.tStart? 'withAnimate': ''}}" style="left: -{{stv.offset}}px">
       <view style="width: {{stv.windowWidth}}px;" wx:for="{{tabs}}" wx:key="unique" class="one-scene">
-         <text>这是第{{index+1}}个页面</text>
+        <scroll-view style="height:100%" scroll-y>
+          <view wx:for="1234567777777" wx:key="unique">
+            <text>这是第{{index+1}}个页面</text>
+          </view>
+        </scroll-view>
       </view>
     </view>
   </view>
