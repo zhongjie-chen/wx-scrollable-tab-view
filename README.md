@@ -1,5 +1,5 @@
 # wx-scrollable-tab-view
-小程序可滑动得tab-view 😃
+小程序可滑动得tab-view 😃  rebase!!!!
 
 ## 其他组件
 - [wx-alphabetical-listview带字母滑动的列表](https://github.com/zhongjie-chen/wx-alphabetical-listview)
